@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box !important;
+}
+body {
+    padding: 20px;
+}
+table {
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+    padding: 0 10px;
+    max-width: 720px;
+    font-size: 13px;
+}
+.order-book {
+    border: 1px solid #f0f0f0;
+    margin: 20px;
+    width: fit-content;
+    padding-top: 16px;
+}
+.order-book-wrapper {
+    display: flex;
+    padding: 10px 0;
+
+    width: fit-content;
+}
+.order-book .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+.order-book .header h4{
+    text-align: left;
+    margin-bottom: 8px;
+    
+    
+}
+.global-actions button{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+
+}
+.global-actions button svg {
+    height: 16px;
+    width: 16px;
+}

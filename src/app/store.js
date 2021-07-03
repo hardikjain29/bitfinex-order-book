@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import reduxThunk from 'redux-thunk'
+import orderBookReducer from './orderBookReducer';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    orderBook: orderBookReducer,
   },
+  middleware: [reduxThunk],
 });
